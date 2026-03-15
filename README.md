@@ -44,7 +44,7 @@ pip install numpy==2.4.2 pandas==2.3.0 matplotlib==3.10.3 tqdm==4.67.1 joblib==1
 ```
 
 ### C++
-To compile and run the code in `key-retrieval-code/`, ensure you have:
+To compile the code in `key-retrieval-code/`, ensure you have:
 * **C++ Compiler:** Must support **C++20** or later (.e.g, `g++-10+` or `clang-10+`)
 * **Build Command:** When compiling manually, ensure you use the `-std=c++20` flag.
 
