@@ -50,7 +50,7 @@ To compile the code in `key-retrieval-code/`, ensure you have:
 
 #### Example Compilation
 ```bash
-g++ -O3 -std=c++20 main.cpp -o key_retrieval
+g++ -O3 -std=c++20 Minimizers.cpp sampling_runtimes.cpp -o key_retrieval
 ```
 
 ## Contact
