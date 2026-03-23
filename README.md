@@ -10,6 +10,7 @@ This directory contains the interactive Python notebooks used to benchmark the d
     * The first cell specifies the library versions and Python environment used.
     * **Compatibility**: Designed to run on most modern Python versions with Jupyter (`.ipynb`) support.
 * **`greedymini_density.ipynb`**: Specifically used to measure the density of **GreedyMini** minimizers.
+* **`random10order.ipynb`**:  Used to compute exact density for random binary 10-orders (see Supplementary section A.1).
 * **`runtime_plots.ipynb`**: Used to generate key-retrieval graphs. 
     * *Note: The core calculations are performed in C++; this notebook handles the visualization of those results.*
 ### `key-retrieval-code/`
