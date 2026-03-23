@@ -34,6 +34,7 @@ To open and run the interactive Python notebooks (`.ipynb`), you will need one o
     * `matplotlib`: 3.10.3 
     * `tqdm`: 4.67.1 
     * `joblib`: 1.3.2
+    * `bitarray`: 3.8.0
 > [!NOTE]
 > While these specific versions were used for benchmarking, we expect the code to remain functional across most modern versions of these libraries that are compatible with one another.
 #### Quick Setup
