@@ -13,6 +13,11 @@ This directory contains the interactive Python notebooks used to benchmark the d
 * **`random10order.ipynb`**:  Used to compute exact density for random binary 10-orders (see Supplementary section A.1).
 * **`runtime_plots.ipynb`**: Used to generate key-retrieval graphs. 
     * *Note: The core calculations are performed in C++; this notebook handles the visualization of those results.*
+
+* **`minimizer_density_repeat_stats.ipynb`**: Measures fluctuations in density measurements across different runs.
+    * Analyzes various k, w values (specifically where w >= k - 2).
+    * Results are saved in **`density_random_pairs_stats.csv`**.
+
 ### `key-retrieval-code/`
 Contains the C++ implementation used to measure key retrieval performance across different minimizer schemes.
 > [!NOTE]
