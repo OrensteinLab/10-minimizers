@@ -1,6 +1,7 @@
 #pragma once
-
 #include <iostream>
+#include <chrono>
+#include <vector>
 #include <thread>
 #include <mutex>
 #include <limits>
@@ -9,10 +10,12 @@
 #include <random>     
 #include <map>
 #include <iomanip> 
+#include <iostream>
 #include <fstream>
 #include <sstream>
 #include <string>
 #include "config.h"
+#include <iostream>
 #include <ctime>    
 #include <stdexcept>
 #include <unordered_set>
@@ -21,12 +24,14 @@
 #include <vector>
 #include <cstdint>
 #include <utility> 
-#include <functional>
+#include <functional> // for std::hash
+#include <iomanip> // for std::setprecision
 #include <chrono>
+#include <iostream>
+#include <vector>
+#include <cmath>
+#include <algorithm>
 #include <bit>
 #include <intrin.h>
 #include <numeric>
-
 void perform_all_sampling_tests();
-
-
